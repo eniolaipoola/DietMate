@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/diet2"
+        android:padding="4dp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/img"
+        android:textSize="20sp"
+        android:text="@string/profileDetails"
+        android:layout_margin="8dp"
+        android:textColor="@color/teal7"/>
+
+    <LinearLayout
+        android:id="@+id/llDetail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvProfile"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/tvNameP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/bmiP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi2"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDetail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/llDetail1"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/tvIbwP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ibw"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvCalorieP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calorie"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDetail3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/llDetail2"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/tvActivityP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvbmrP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmrProfile"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

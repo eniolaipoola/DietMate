@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorDeepSkyBlue">#00BFFF</color>
+    <color name="colorDeepSkyBlue2">#0FBBFA</color>
+    <color name="colorSkyBlue">#87CEEB</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorCadetBlue">#5F9EA0</color>
+    <color name="colorLightBlue">#ADD8E6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorCyan">#00BCD4</color>  <!--500-->
+    <color name="colorCyan2">#00ACC1</color>  <!--600-->
+    <color name="colorCyan3">#0097A7</color>  <!--700-->
+    <color name="colorCyan4">#00838F</color>  <!--800-->
+
+    <color name="colorPink">#F50057</color>
+    <color name="colorPink1">#FF4081</color>
+    <color name="colorPink2">#FF80AB</color>
+
+    <color name="colorGrey">#90A4AE</color>
+    <color name="colorGrey1">#37474F</color>
+    <color name="colorGrey2">#607D8B</color>
+
+
+    <color name="orangeRed">#FF4500</color>
+    <color name="orangeRed1">#EE4000</color>
+    <color name="orangeRed2">#CD3700</color>
+    <color name="orangeRed3">#8B2500</color>
+
+    <color name="fireBrick">#B22222</color>
+    <color name="fireBrick1">#FF3030</color>
+    <color name="fireBrick2">#EE2C2C</color>
+    <color name="fireBrick3">#CD2626</color>
+
+    <color name="red">#FF0000</color>
+    <color name="red1">#EE0000</color>
+    <color name="red2">#CD0000</color>
+    <color name="red3">#8B0000</color>
+
+
+    <color name="teal9">#004D40</color> <!--900-->
+    <color name="teal8">#00695C</color> <!--800-->
+    <color name="teal7">#00796B</color> <!--700-->
+    <color name="teal6">#00897B</color> <!--600-->
+    <color name="teal5">#009688</color> <!--500-->
+    <color name="teal4">#26A69A</color> <!--400-->
+    <color name="teal3">#4DB6AC</color> <!--300-->
+    <color name="teal2">#80CBC4</color> <!--200-->
+    <color name="teal1">#B2DFDB</color> <!--100-->
+
+
+
+
+</resources>

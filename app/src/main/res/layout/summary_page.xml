@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="@string/inference1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal5"
+        android:padding="4dp"
+        android:layout_margin="8dp"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/resultView"
+        android:gravity="center"
+        android:textColor="@color/teal7"
+        android:textStyle="bold"
+        android:layout_below="@id/tv1"
+        android:padding="4dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/teal4"
+        android:text="Next"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

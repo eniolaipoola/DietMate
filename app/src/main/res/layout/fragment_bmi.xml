@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="4dp"
+            android:text="@string/tvBMI"
+            android:textColor="@color/teal7"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtName"
+            android:padding="4dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/name"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edtWeight"
+            android:padding="4dp"
+            android:layout_marginTop="25dp"
+            android:hint="@string/weight"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="fill_parent"
+            android:inputType="number"
+            android:layout_height="40dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edtHeight"
+            android:padding="4dp"
+            android:layout_marginTop="25dp"
+            android:hint="@string/height"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="fill_parent"
+            android:inputType="numberDecimal"
+            android:layout_height="40dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/submitBMI"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/teal4"
+            android:text="@string/calcBMI"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvForm"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_margin="4dp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:text="@string/signup"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal9"
+                android:layout_margin="16dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_margin="16dp"
+                android:hint="@string/formEmail"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colorAccent"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="4dp"
+                android:layout_margin="16dp"
+                android:hint="@string/formPassword"
+                android:inputType="textPassword"
+                android:textColorHint="@color/colorAccent"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@color/teal4"
+                android:text="@string/cont"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:layout_margin="16dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+</ScrollView>

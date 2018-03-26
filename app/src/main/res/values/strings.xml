@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">DietMate</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="profile">Profile</string>
+    <!-- <string name="profile"> Your Profile </string>-->
+    <string name="email">eniolaipoola@gmail.com </string>
+    <string name="history">Diet History</string>
+    <string name="plan">Get Plan</string>
+    <string name="bmi_calculator"> BMI Calculator </string>
+    <string name="logout">Log Out</string>
+    <string name="meetDietician"> Meet a Dietitian </string>
+    <string name="setting">Settings</string>
+
+    <string name="start">Diet Mate!!!</string>
+    <string name="startButton">Get Started</string>
+
+    <string name="tvBMI">Body mass index (BMI) </string>
+    <string name="name">FIRST NAME</string>
+    <string name="weight">WEIGHT (in KG) </string>
+    <string name="height">HEIGHT (in cm)</string>
+    <string name="age">Age</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="activity">ACTIVITY LEVEL</string>
+    <string name="bmi2">BMI</string>
+    <string name="ibw">IDEAL WEIGHT</string>
+    <string name="bmr">BASAL METABOLISM RATE </string>
+
+    <string name="details">OTHER DETAILS</string>
+
+    <string name="next">NEXT</string>
+    <string name="idealInfo">Ideal Weight Importance</string>
+
+    <string name="signup">The following information is required of you, lets do this!!!.</string>
+    <string name="formEmail"> Enter your  email here</string>
+    <string name="formPassword"> Create a Password </string>
+    <string name="login"> Already done this? Click here</string>
+
+    <string name="cont">Continue</string>
+    <string name="calcBMI">CALCULATE BMI </string>
+
+    <string name="Activity1">Select the category that best describe your daily activity.</string>
+    <string name="dump">Activity Level describes physical activity and total energy expenditure.</string>
+
+    <string name="what_is_ibw">Ideal body weight simply refers to the most healthy weight for you</string>
+    <string name="inference1">You have the following details: </string>
+
+    <string name="bmi1">BMI Calculator </string>
+    <string name="value">Result</string>
+    <string name="activity2">ACTIVITY LEVEL: </string>
+    <string name="IBM">Ideal Body Weight: </string>
+
+    <string name="sexQue">Sex:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="extremelyIn">Extremely Inactive</string>
+    <string name="eI">(Sick patient, aged people)</string>
+    <string name="sedentary">Sedentary</string>
+    <string name="sd"> (Office workers, teachers)</string>
+    <string name="moderatelyA">Moderately Active</string>
+    <string name="mA">(Construction, Student)</string>
+    <string name="vigorouslyA">Vigorously Active </string>
+    <string name="vA">(Agriculture, Swimming)</string>
+    <string name="extremelyA">Extremely Active </string>
+    <string name="eA">(Cyclist)</string>
+
+    <string name="health">Health History</string>
+    <string name="HealthQuestion">Do you have any health condition? The ones listed below are the only ones considered.
+        Please contact your doctor and dietitian for any other health condition
+    </string>
+    <string name="test">Select a health Condition</string>
+    <string-array name="health_history">
+        <item>Obesity</item>
+        <item>Ulcer</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="result">Result</string>
+
+    <string name="diet">Daily Diet</string>
+    <string name="morning">Breakfast
+    
+    </string>
+    <string name="afternoon">Launch</string>
+    <string name="dinner">Dinner</string>
+    <string name="supplements">Supplements</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="question">Select the answer that best suits you. Input a response in the spaces provided </string>
+    <string name="question1">Do you take breakfast often?</string>
+    <string name="question2">How often do you take launch?</string>
+    <string name="question3">What is your favourite launch meal?</string>
+    <string name="question4">Do you take dinner?</string>
+    <string name="question5">What time do you take dinner</string>
+    <string name="frequency">Often, Sometimes, Always</string>
+
+    <string name="profileDetails">My Profile</string>
+    <string name="calorie">Calorie Goal</string>
+    <string name="bmrProfile">BMR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello home fragment</string>
+</resources>

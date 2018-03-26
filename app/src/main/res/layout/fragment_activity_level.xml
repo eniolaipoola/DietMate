@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activityL"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/Activity1"
+            android:textColor="@color/teal7"
+            android:padding="4dp"
+            android:layout_margin="8dp"/>
+
+        <RelativeLayout
+            android:id="@+id/ll2"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sedentary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sedentary"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <TextView
+                android:id="@+id/tvSedentary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sedentary"
+                android:padding="8dp"
+                android:text="@string/sd"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <CheckBox
+                android:id="@+id/cbSedentary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/sedentary"
+                android:layout_alignEnd="@+id/sedentary"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll3"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/moderately"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/moderatelyA"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <TextView
+                android:id="@+id/tvM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/moderately"
+                android:padding="8dp"
+                android:text="@string/mA"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <CheckBox
+                android:id="@+id/cbModerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/moderately"
+                android:layout_alignEnd="@+id/moderately"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vigorously"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vigorouslyA"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <TextView
+                android:id="@+id/vA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vigorously"
+                android:padding="8dp"
+                android:text="@string/vA"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <CheckBox
+                android:id="@+id/cbVigorous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/vigorously"
+                android:layout_alignEnd="@+id/vigorously"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submitAL"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/teal4"
+            android:text="@string/submit"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

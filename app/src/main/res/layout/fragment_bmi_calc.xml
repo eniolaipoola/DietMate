@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="4dp"
+    android:layout_marginBottom="25dp">
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+        >
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="4dp"
+        android:text="@string/bmi_calculator"
+        android:layout_margin="16dp"
+        android:textColor="@color/teal7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:padding="8dp"
+            android:text="@string/weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/edt1"
+            android:padding="8dp"
+            android:layout_width="150dp"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:padding="8dp"
+            android:text="@string/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/edt2"
+            android:padding="8dp"
+            android:layout_width="150dp"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/teal4"
+        android:text="@string/result"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:textAlignment="center" />
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
