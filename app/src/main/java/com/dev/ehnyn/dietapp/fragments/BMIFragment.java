@@ -58,9 +58,9 @@ public class BMIFragment extends Fragment {
                 final String firstname = nameField.getText().toString();
                 final String weight = weightField.getText().toString();
                 final String height = heightField.getText().toString();
-                Log.e(LOG_TAG, "firstname " + firstname);
-                Log.e(LOG_TAG, "weight " + weight);
-                Log.e(LOG_TAG, "height " + height);
+                Log.d(LOG_TAG, "firstname " + firstname);
+                Log.d(LOG_TAG, "weight " + weight);
+                Log.d(LOG_TAG, "height " + height);
 
                /* Bundle bundle = new Bundle();
                 bundle.putString("pass", firstname);
@@ -77,14 +77,14 @@ public class BMIFragment extends Fragment {
                     @Override
                     public void onResponse(String response) {
                         try{
-                            Log.e(LOG_TAG, "It got here");
+                            Log.d(LOG_TAG, "It got here");
                             JSONObject apiResponse = new JSONObject(response);
-                            Log.e(LOG_TAG, "The api response is " + apiResponse);
+                            Log.d(LOG_TAG, "The api response is " + apiResponse);
                             String message = apiResponse.getString("message");
-                            Log.e(LOG_TAG, "Bmi message is " + message);
+                            Log.d(LOG_TAG, "Bmi message is " + message);
                             double bmiValue = apiResponse.getDouble("data");
                             double bmi = Math.round(bmiValue);
-                            Log.e(LOG_TAG, "Value is " + bmi);
+                            Log.d(LOG_TAG, "Value is " + bmi);
                             Toast.makeText(submitButton.getContext(), "Your bmi is " + bmiValue, Toast.LENGTH_LONG).show();
                         }catch (Exception e){
                             throw  new RuntimeException("An internal JSON Error occurred, please try again");
